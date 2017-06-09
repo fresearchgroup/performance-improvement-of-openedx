@@ -1,0 +1,149 @@
+INFO 2017-06-08 09:37:56,335 [main]: Config file: config/MyConfig.properties
+INFO 2017-06-08 09:37:56,335 [main]: Workload config file: /home/ubuntu/linkbench/config/FBWorkload.properties
+INFO 2017-06-08 09:37:56,344 [main]: Starting loaders 10
+INFO 2017-06-08 09:37:56,346 [main]: Using random seed -82134080636317 since load_random_seed not specified
+INFO 2017-06-08 09:37:56,385 [main]: Loading real distribution data from /home/ubuntu/linkbench/config/Distribution.dat
+INFO 2017-06-08 09:37:56,849 [main]: Will generate graph nodes during loading
+INFO 2017-06-08 09:37:56,885 [Thread-10]: Starting loader thread  #10 loading nodes
+INFO 2017-06-08 09:37:57,593 [Thread-3]: Starting loader thread  #3 loading links
+INFO 2017-06-08 09:37:57,681 [Thread-5]: Starting loader thread  #5 loading links
+INFO 2017-06-08 09:37:57,694 [Thread-0]: Starting loader thread  #0 loading links
+INFO 2017-06-08 09:37:57,739 [Thread-9]: Starting loader thread  #9 loading links
+INFO 2017-06-08 09:37:57,902 [Thread-8]: Starting loader thread  #8 loading links
+INFO 2017-06-08 09:37:58,047 [Thread-7]: Starting loader thread  #7 loading links
+INFO 2017-06-08 09:37:58,237 [Thread-5]: 16960/1000000 id1s loaded (1.7% complete) at 12535.11 id1s/sec avg. 51847 links loaded at 38320.03 links/sec avg.
+INFO 2017-06-08 09:37:58,265 [Thread-2]: Starting loader thread  #2 loading links
+INFO 2017-06-08 09:37:58,346 [Thread-6]: Starting loader thread  #6 loading links
+INFO 2017-06-08 09:37:58,350 [Thread-4]: Starting loader thread  #4 loading links
+INFO 2017-06-08 09:37:58,476 [Thread-1]: Starting loader thread  #1 loading links
+INFO 2017-06-08 09:37:58,933 [Thread-3]: 33344/1000000 id1s loaded (3.3% complete) at 16249.51 id1s/sec avg. 108363 links loaded at 52808.48 links/sec avg.
+INFO 2017-06-08 09:37:59,143 [Thread-0]: 43584/1000000 id1s loaded (4.4% complete) at 19276.43 id1s/sec avg. 153951 links loaded at 68089.78 links/sec avg.
+INFO 2017-06-08 09:37:59,833 [Thread-8]: 57920/1000000 id1s loaded (5.8% complete) at 19620.60 id1s/sec avg. 200992 links loaded at 68086.72 links/sec avg.
+INFO 2017-06-08 09:38:01,646 [Thread-9]: 74304/1000000 id1s loaded (7.4% complete) at 15593.70 id1s/sec avg. 259522 links loaded at 54464.22 links/sec avg.
+INFO 2017-06-08 09:38:01,821 [Thread-6]: 84544/1000000 id1s loaded (8.5% complete) at 17114.17 id1s/sec avg. 300598 links loaded at 60849.80 links/sec avg.
+INFO 2017-06-08 09:38:03,204 [Thread-8]: 105024/1000000 id1s loaded (10.5% complete) at 16609.84 id1s/sec avg. 352609 links loaded at 55766.09 links/sec avg.
+INFO 2017-06-08 09:38:05,226 [Thread-0]: 119360/1000000 id1s loaded (11.9% complete) at 14303.18 id1s/sec avg. 411768 links loaded at 49343.08 links/sec avg.
+INFO 2017-06-08 09:38:05,566 [Thread-9]: 133696/1000000 id1s loaded (13.4% complete) at 15393.90 id1s/sec avg. 458480 links loaded at 52789.87 links/sec avg.
+INFO 2017-06-08 09:38:05,942 [Thread-2]: 150080/1000000 id1s loaded (15.0% complete) at 16563.29 id1s/sec avg. 515207 links loaded at 56859.84 links/sec avg.
+INFO 2017-06-08 09:38:06,562 [Thread-8]: 156224/1000000 id1s loaded (15.6% complete) at 16137.18 id1s/sec avg. 551007 links loaded at 56916.33 links/sec avg.
+INFO 2017-06-08 09:38:07,416 [Thread-8]: 174656/1000000 id1s loaded (17.5% complete) at 16580.22 id1s/sec avg. 605317 links loaded at 57463.17 links/sec avg.
+INFO 2017-06-08 09:38:08,123 [Thread-7]: 186944/1000000 id1s loaded (18.7% complete) at 16630.55 id1s/sec avg. 659960 links loaded at 58710.08 links/sec avg.
+INFO 2017-06-08 09:38:09,340 [Thread-8]: 197184/1000000 id1s loaded (19.7% complete) at 15826.63 id1s/sec avg. 700575 links loaded at 56230.44 links/sec avg.
+INFO 2017-06-08 09:38:10,465 [Thread-8]: 213568/1000000 id1s loaded (21.4% complete) at 15722.03 id1s/sec avg. 751615 links loaded at 55330.90 links/sec avg.
+INFO 2017-06-08 09:38:11,020 [Thread-5]: 227904/1000000 id1s loaded (22.8% complete) at 16119.96 id1s/sec avg. 816695 links loaded at 57765.95 links/sec avg.
+INFO 2017-06-08 09:38:12,225 [Thread-4]: 238144/1000000 id1s loaded (23.8% complete) at 15520.33 id1s/sec avg. 852678 links loaded at 55570.78 links/sec avg.
+INFO 2017-06-08 09:38:12,610 [Thread-8]: 254528/1000000 id1s loaded (25.5% complete) at 16182.08 id1s/sec avg. 901894 links loaded at 57339.56 links/sec avg.
+INFO 2017-06-08 09:38:13,203 [Thread-9]: 264768/1000000 id1s loaded (26.5% complete) at 16222.54 id1s/sec avg. 952406 links loaded at 58354.64 links/sec avg.
+INFO 2017-06-08 09:38:14,137 [Thread-9]: 277056/1000000 id1s loaded (27.7% complete) at 16055.63 id1s/sec avg. 1008598 links loaded at 58449.12 links/sec avg.
+INFO 2017-06-08 09:38:15,183 [Thread-6]: 291392/1000000 id1s loaded (29.1% complete) at 15921.32 id1s/sec avg. 1064587 links loaded at 58167.80 links/sec avg.
+INFO 2017-06-08 09:38:16,020 [Thread-6]: 305728/1000000 id1s loaded (30.6% complete) at 15974.92 id1s/sec avg. 1103003 links loaded at 57634.18 links/sec avg.
+INFO 2017-06-08 09:38:17,470 [Thread-1]: 320064/1000000 id1s loaded (32.0% complete) at 15545.39 id1s/sec avg. 1171481 links loaded at 56898.39 links/sec avg.
+INFO 2017-06-08 09:38:17,974 [Thread-2]: 328256/1000000 id1s loaded (32.8% complete) at 15563.06 id1s/sec avg. 1200785 links loaded at 56930.83 links/sec avg.
+INFO 2017-06-08 09:38:19,392 [Thread-3]: 344640/1000000 id1s loaded (34.5% complete) at 15309.85 id1s/sec avg. 1251107 links loaded at 55577.58 links/sec avg.
+INFO 2017-06-08 09:38:20,138 [Thread-6]: 350784/1000000 id1s loaded (35.1% complete) at 15082.94 id1s/sec avg. 1311123 links loaded at 56375.41 links/sec avg.
+INFO 2017-06-08 09:38:20,252 [Thread-1]: 356928/1000000 id1s loaded (35.7% complete) at 15272.26 id1s/sec avg. 1353026 links loaded at 57893.37 links/sec avg.
+INFO 2017-06-08 09:38:21,448 [Thread-0]: 375360/1000000 id1s loaded (37.5% complete) at 15279.65 id1s/sec avg. 1417154 links loaded at 57687.62 links/sec avg.
+INFO 2017-06-08 09:38:21,830 [Thread-7]: 379456/1000000 id1s loaded (37.9% complete) at 15209.88 id1s/sec avg. 1451835 links loaded at 58194.44 links/sec avg.
+INFO 2017-06-08 09:38:22,336 [Thread-9]: 387648/1000000 id1s loaded (38.8% complete) at 15229.35 id1s/sec avg. 1532049 links loaded at 60188.93 links/sec avg.
+INFO 2017-06-08 09:38:22,462 [Thread-1]: 391744/1000000 id1s loaded (39.2% complete) at 15313.87 id1s/sec avg. 1551637 links loaded at 60655.84 links/sec avg.
+INFO 2017-06-08 09:38:23,084 [Thread-9]: 404032/1000000 id1s loaded (40.4% complete) at 15419.89 id1s/sec avg. 1600877 links loaded at 61097.51 links/sec avg.
+INFO 2017-06-08 09:38:24,137 [Thread-5]: 416320/1000000 id1s loaded (41.6% complete) at 15274.43 id1s/sec avg. 1654486 links loaded at 60701.72 links/sec avg.
+INFO 2017-06-08 09:38:25,528 [Thread-1]: 432704/1000000 id1s loaded (43.3% complete) at 15104.69 id1s/sec avg. 1709027 links loaded at 59658.15 links/sec avg.
+INFO 2017-06-08 09:38:26,182 [Thread-0]: 438848/1000000 id1s loaded (43.9% complete) at 14977.75 id1s/sec avg. 1757868 links loaded at 59995.49 links/sec avg.
+INFO 2017-06-08 09:38:26,663 [Thread-6]: 451136/1000000 id1s loaded (45.1% complete) at 15147.94 id1s/sec avg. 1807375 links loaded at 60686.82 links/sec avg.
+INFO 2017-06-08 09:38:27,467 [Thread-1]: 461376/1000000 id1s loaded (46.1% complete) at 15085.04 id1s/sec avg. 1857566 links loaded at 60734.54 links/sec avg.
+INFO 2017-06-08 09:38:28,314 [Thread-2]: 469568/1000000 id1s loaded (47.0% complete) at 14938.70 id1s/sec avg. 1906225 links loaded at 60644.07 links/sec avg.
+INFO 2017-06-08 09:38:28,574 [Thread-5]: 477760/1000000 id1s loaded (47.8% complete) at 15074.62 id1s/sec avg. 1950995 links loaded at 61559.18 links/sec avg.
+INFO 2017-06-08 09:38:29,215 [Thread-3]: 490048/1000000 id1s loaded (49.0% complete) at 15155.81 id1s/sec avg. 2003866 links loaded at 61973.96 links/sec avg.
+INFO 2017-06-08 09:38:31,003 [Thread-3]: 504384/1000000 id1s loaded (50.4% complete) at 14781.78 id1s/sec avg. 2053905 links loaded at 60192.98 links/sec avg.
+INFO 2017-06-08 09:38:31,210 [Thread-7]: 510528/1000000 id1s loaded (51.1% complete) at 14871.62 id1s/sec avg. 2107079 links loaded at 61378.98 links/sec avg.
+INFO 2017-06-08 09:38:32,071 [Thread-1]: 524864/1000000 id1s loaded (52.5% complete) at 14915.15 id1s/sec avg. 2150437 links loaded at 61109.32 links/sec avg.
+INFO 2017-06-08 09:38:32,666 [Thread-6]: 535104/1000000 id1s loaded (53.5% complete) at 14953.30 id1s/sec avg. 2202952 links loaded at 61560.77 links/sec avg.
+INFO 2017-06-08 09:38:34,339 [Thread-2]: 549440/1000000 id1s loaded (54.9% complete) at 14668.16 id1s/sec avg. 2252722 links loaded at 60139.94 links/sec avg.
+INFO 2017-06-08 09:38:34,572 [Thread-8]: 557632/1000000 id1s loaded (55.8% complete) at 14795.22 id1s/sec avg. 2316533 links loaded at 61462.80 links/sec avg.
+INFO 2017-06-08 09:38:34,771 [Thread-1]: 563776/1000000 id1s loaded (56.4% complete) at 14879.28 id1s/sec avg. 2353874 links loaded at 62123.88 links/sec avg.
+INFO 2017-06-08 09:38:35,705 [Thread-4]: 580160/1000000 id1s loaded (58.0% complete) at 14943.72 id1s/sec avg. 2401290 links loaded at 61852.25 links/sec avg.
+INFO 2017-06-08 09:38:36,564 [Thread-0]: 590400/1000000 id1s loaded (59.0% complete) at 14877.91 id1s/sec avg. 2453714 links loaded at 61832.88 links/sec avg.
+INFO 2017-06-08 09:38:38,352 [Thread-8]: 606784/1000000 id1s loaded (60.7% complete) at 14631.53 id1s/sec avg. 2506204 links loaded at 60432.69 links/sec avg.
+INFO 2017-06-08 09:38:38,972 [Thread-3]: 614976/1000000 id1s loaded (61.5% complete) at 14610.98 id1s/sec avg. 2558521 links loaded at 60786.91 links/sec avg.
+INFO 2017-06-08 09:38:39,223 [Thread-9]: 623168/1000000 id1s loaded (62.3% complete) at 14717.49 id1s/sec avg. 2677396 links loaded at 63232.63 links/sec avg.
+INFO 2017-06-08 09:38:39,465 [Thread-8]: 629312/1000000 id1s loaded (62.9% complete) at 14778.13 id1s/sec avg. 2700717 links loaded at 63420.93 links/sec avg.
+INFO 2017-06-08 09:38:40,470 [Thread-4]: 645696/1000000 id1s loaded (64.6% complete) at 14813.28 id1s/sec avg. 2754258 links loaded at 63187.00 links/sec avg.
+INFO 2017-06-08 09:38:41,393 [Thread-9]: 660032/1000000 id1s loaded (66.0% complete) at 14828.51 id1s/sec avg. 2802025 links loaded at 62951.29 links/sec avg.
+INFO 2017-06-08 09:38:42,496 [Thread-7]: 670272/1000000 id1s loaded (67.0% complete) at 14694.11 id1s/sec avg. 2858120 links loaded at 62657.46 links/sec avg.
+INFO 2017-06-08 09:38:43,226 [Thread-6]: 678464/1000000 id1s loaded (67.8% complete) at 14639.74 id1s/sec avg. 2903279 links loaded at 62646.28 links/sec avg.
+INFO 2017-06-08 09:38:43,846 [Thread-6]: 686656/1000000 id1s loaded (68.7% complete) at 14620.59 id1s/sec avg. 2951781 links loaded at 62850.65 links/sec avg.
+INFO 2017-06-08 09:38:44,933 [Thread-8]: 696896/1000000 id1s loaded (69.7% complete) at 14502.96 id1s/sec avg. 3012067 links loaded at 62683.49 links/sec avg.
+INFO 2017-06-08 09:38:44,933 [Thread-2]: 698944/1000000 id1s loaded (69.9% complete) at 14545.58 id1s/sec avg. 3057060 links loaded at 63619.83 links/sec avg.
+INFO 2017-06-08 09:38:46,270 [Thread-4]: 711232/1000000 id1s loaded (71.1% complete) at 14400.62 id1s/sec avg. 3103324 links loaded at 62834.32 links/sec avg.
+INFO 2017-06-08 09:38:47,867 [Thread-8]: 721472/1000000 id1s loaded (72.1% complete) at 14150.67 id1s/sec avg. 3156705 links loaded at 61914.39 links/sec avg.
+INFO 2017-06-08 09:38:48,681 [Thread-5]: 729664/1000000 id1s loaded (73.0% complete) at 14086.45 id1s/sec avg. 3201235 links loaded at 61801.10 links/sec avg.
+INFO 2017-06-08 09:38:48,926 [Thread-2]: 739904/1000000 id1s loaded (74.0% complete) at 14216.62 id1s/sec avg. 3256470 links loaded at 62570.28 links/sec avg.
+INFO 2017-06-08 09:38:50,066 [Thread-8]: 752192/1000000 id1s loaded (75.2% complete) at 14142.94 id1s/sec avg. 3301911 links loaded at 62083.50 links/sec avg.
+INFO 2017-06-08 09:38:50,179 [Thread-1]: 756288/1000000 id1s loaded (75.6% complete) at 14190.07 id1s/sec avg. 3354100 links loaded at 62932.25 links/sec avg.
+INFO 2017-06-08 09:38:51,622 [Thread-5]: 770624/1000000 id1s loaded (77.1% complete) at 14077.64 id1s/sec avg. 3414002 links loaded at 62366.45 links/sec avg.
+INFO 2017-06-08 09:38:52,673 [Thread-4]: 789056/1000000 id1s loaded (78.9% complete) at 14143.07 id1s/sec avg. 3473341 links loaded at 62256.30 links/sec avg.
+INFO 2017-06-08 09:38:53,038 [Thread-1]: 795200/1000000 id1s loaded (79.5% complete) at 14160.30 id1s/sec avg. 3501142 links loaded at 62345.60 links/sec avg.
+INFO 2017-06-08 09:38:54,476 [Thread-8]: 809536/1000000 id1s loaded (81.0% complete) at 14055.91 id1s/sec avg. 3556825 links loaded at 61756.87 links/sec avg.
+INFO 2017-06-08 09:38:54,613 [Thread-7]: 819776/1000000 id1s loaded (82.0% complete) at 14199.68 id1s/sec avg. 3610690 links loaded at 62542.26 links/sec avg.
+INFO 2017-06-08 09:38:55,095 [Thread-1]: 836160/1000000 id1s loaded (83.6% complete) at 14364.54 id1s/sec avg. 3654224 links loaded at 62776.57 links/sec avg.
+INFO 2017-06-08 09:38:57,234 [Thread-3]: 852544/1000000 id1s loaded (85.3% complete) at 14126.19 id1s/sec avg. 3705146 links loaded at 61392.27 links/sec avg.
+INFO 2017-06-08 09:38:58,014 [Thread-4]: 868928/1000000 id1s loaded (86.9% complete) at 14213.96 id1s/sec avg. 3759965 links loaded at 61505.68 links/sec avg.
+INFO 2017-06-08 09:38:59,385 [Thread-3]: 883264/1000000 id1s loaded (88.3% complete) at 14131.32 id1s/sec avg. 3801596 links loaded at 60821.64 links/sec avg.
+INFO 2017-06-08 09:38:59,647 [Thread-4]: 889408/1000000 id1s loaded (88.9% complete) at 14170.22 id1s/sec avg. 3851860 links loaded at 61368.58 links/sec avg.
+INFO 2017-06-08 09:39:00,410 [Thread-6]: 897600/1000000 id1s loaded (89.8% complete) at 14129.20 id1s/sec avg. 3912258 links loaded at 61583.21 links/sec avg.
+INFO 2017-06-08 09:39:02,567 [Thread-5]: 911936/1000000 id1s loaded (91.2% complete) at 13883.47 id1s/sec avg. 3963370 links loaded at 60339.04 links/sec avg.
+INFO 2017-06-08 09:39:05,914 [Thread-1]: 924224/1000000 id1s loaded (92.4% complete) at 13388.34 id1s/sec avg. 4003512 links loaded at 57995.02 links/sec avg.
+INFO 2017-06-08 09:39:08,044 [Thread-9]: 934464/1000000 id1s loaded (93.4% complete) at 13131.32 id1s/sec avg. 4050129 links loaded at 56913.41 links/sec avg.
+INFO 2017-06-08 09:39:14,646 [Thread-7]: 948800/1000000 id1s loaded (94.9% complete) at 12200.86 id1s/sec avg. 4105711 links loaded at 52796.39 links/sec avg.
+INFO 2017-06-08 09:39:18,568 [Thread-7]: 965184/1000000 id1s loaded (96.5% complete) at 11815.78 id1s/sec avg. 4155016 links loaded at 50865.71 links/sec avg.
+INFO 2017-06-08 09:39:19,073 [Thread-2]: 971328/1000000 id1s loaded (97.1% complete) at 11817.94 id1s/sec avg. 4202607 links loaded at 51132.20 links/sec avg.
+INFO 2017-06-08 09:39:23,776 [Thread-3]: ThreadID = 3 LOAD_LINKS_BULK totalOps = 440 totalErrors = 0 ops = 440 sampleDuration = 86180ms samples = 440 mean = 179070.08 min = 14564 25% = 48703 50% = 80358 75% = 163538 90% = 371383 95% = 822655 99% = 1468865 max = 2498455
+INFO 2017-06-08 09:39:23,777 [Thread-3]: ThreadID = 3 LOAD_COUNTS_BULK totalOps = 86 totalErrors = 0 ops = 86 sampleDuration = 86180ms samples = 86 mean = 72694.3 min = 10869 25% = 22742 50% = 41258 75% = 75635 90% = 140897 95% = 168302 99% = 766465 max = 766465
+INFO 2017-06-08 09:39:23,777 [Thread-3]: ThreadID = 3 LOAD_LINKS_BULK_NLINKS totalOps = 440 totalErrors = 0 ops = 440 sampleDuration = 86180ms samples = 440 mean = 1023.33 min = 730 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:23,779 [Thread-3]: ThreadID = 3 LOAD_COUNTS_BULK_NLINKS totalOps = 86 totalErrors = 0 ops = 86 sampleDuration = 86180ms samples = 86 mean = 1012.84 min = 64 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:24,760 [Thread-7]: ThreadID = 7 LOAD_LINKS_BULK totalOps = 430 totalErrors = 0 ops = 430 sampleDuration = 86712ms samples = 430 mean = 188065.46 min = 15428 25% = 49954 50% = 86430 75% = 173262 90% = 445310 95% = 893308 99% = 1521279 max = 1728678
+INFO 2017-06-08 09:39:24,761 [Thread-7]: ThreadID = 7 LOAD_COUNTS_BULK totalOps = 73 totalErrors = 0 ops = 73 sampleDuration = 86712ms samples = 73 mean = 66072.97 min = 11520 25% = 25166 50% = 41804 75% = 74740 90% = 108353 95% = 133673 99% = 597249 max = 597249
+INFO 2017-06-08 09:39:24,761 [Thread-7]: ThreadID = 7 LOAD_LINKS_BULK_NLINKS totalOps = 430 totalErrors = 0 ops = 430 sampleDuration = 86712ms samples = 430 mean = 1023.83 min = 950 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:24,762 [Thread-7]: ThreadID = 7 LOAD_COUNTS_BULK_NLINKS totalOps = 73 totalErrors = 0 ops = 73 sampleDuration = 86712ms samples = 73 mean = 1016.38 min = 468 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,014 [Thread-4]: ThreadID = 4 LOAD_LINKS_BULK totalOps = 442 totalErrors = 0 ops = 442 sampleDuration = 87663ms samples = 442 mean = 184985.19 min = 16355 25% = 53671 50% = 94410 75% = 172622 90% = 367179 95% = 836633 99% = 1385745 max = 2455209
+INFO 2017-06-08 09:39:26,014 [Thread-4]: ThreadID = 4 LOAD_COUNTS_BULK totalOps = 80 totalErrors = 0 ops = 80 sampleDuration = 87663ms samples = 80 mean = 61629.06 min = 10704 25% = 24288 50% = 48951 75% = 71688 90% = 109950 95% = 137666 99% = 494268 max = 494268
+INFO 2017-06-08 09:39:26,014 [Thread-4]: ThreadID = 4 LOAD_LINKS_BULK_NLINKS totalOps = 442 totalErrors = 0 ops = 442 sampleDuration = 87663ms samples = 442 mean = 1023.03 min = 595 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,015 [Thread-4]: ThreadID = 4 LOAD_COUNTS_BULK_NLINKS totalOps = 80 totalErrors = 0 ops = 80 sampleDuration = 87663ms samples = 80 mean = 1011.41 min = 17 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,152 [Thread-1]: ThreadID = 1 LOAD_LINKS_BULK totalOps = 425 totalErrors = 0 ops = 425 sampleDuration = 87675ms samples = 425 mean = 191253.31 min = 17891 25% = 55626 50% = 95970 75% = 184092 90% = 383032 95% = 865720 99% = 1436386 max = 1927315
+INFO 2017-06-08 09:39:26,152 [Thread-1]: ThreadID = 1 LOAD_COUNTS_BULK totalOps = 84 totalErrors = 0 ops = 84 sampleDuration = 87675ms samples = 84 mean = 63583.82 min = 2 25% = 33094 50% = 50583 75% = 76595 90% = 105131 95% = 142474 99% = 389228 max = 389228
+INFO 2017-06-08 09:39:26,152 [Thread-1]: ThreadID = 1 LOAD_LINKS_BULK_NLINKS totalOps = 425 totalErrors = 0 ops = 425 sampleDuration = 87675ms samples = 425 mean = 1022 min = 175 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,152 [Thread-1]: ThreadID = 1 LOAD_COUNTS_BULK_NLINKS totalOps = 84 totalErrors = 0 ops = 84 sampleDuration = 87675ms samples = 84 mean = 1011.81 min = 0 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,275 [Thread-6]: 989760/1000000 id1s loaded (99.0% complete) at 11071.88 id1s/sec avg. 4254946 links loaded at 47597.67 links/sec avg.
+INFO 2017-06-08 09:39:26,389 [Thread-2]: ThreadID = 2 LOAD_LINKS_BULK totalOps = 419 totalErrors = 0 ops = 419 sampleDuration = 88124ms samples = 419 mean = 192548.46 min = 17005 25% = 53820 50% = 86388 75% = 204531 90% = 453177 95% = 804785 99% = 1316166 max = 1941600
+INFO 2017-06-08 09:39:26,389 [Thread-2]: ThreadID = 2 LOAD_COUNTS_BULK totalOps = 79 totalErrors = 0 ops = 79 sampleDuration = 88124ms samples = 79 mean = 80077.62 min = 9979 25% = 24996 50% = 49837 75% = 72951 90% = 114640 95% = 119517 99% = 1449748 max = 1449748
+INFO 2017-06-08 09:39:26,389 [Thread-2]: ThreadID = 2 LOAD_LINKS_BULK_NLINKS totalOps = 419 totalErrors = 0 ops = 419 sampleDuration = 88124ms samples = 419 mean = 1021.56 min = 1 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,390 [Thread-2]: ThreadID = 2 LOAD_COUNTS_BULK_NLINKS totalOps = 79 totalErrors = 0 ops = 79 sampleDuration = 88124ms samples = 79 mean = 1023.7 min = 1000 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,682 [Thread-6]: ThreadID = 6 LOAD_LINKS_BULK totalOps = 445 totalErrors = 0 ops = 445 sampleDuration = 88335ms samples = 445 mean = 185689.63 min = 19292 25% = 52586 50% = 88583 75% = 184294 90% = 436299 95% = 817811 99% = 1318139 max = 1915071
+INFO 2017-06-08 09:39:26,682 [Thread-6]: ThreadID = 6 LOAD_COUNTS_BULK totalOps = 79 totalErrors = 0 ops = 79 sampleDuration = 88335ms samples = 79 mean = 59180.78 min = 9842 25% = 22468 50% = 42701 75% = 75202 90% = 108609 95% = 123553 99% = 725623 max = 725623
+INFO 2017-06-08 09:39:26,683 [Thread-6]: ThreadID = 6 LOAD_LINKS_BULK_NLINKS totalOps = 445 totalErrors = 0 ops = 445 sampleDuration = 88335ms samples = 445 mean = 1022.47 min = 343 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,683 [Thread-6]: ThreadID = 6 LOAD_COUNTS_BULK_NLINKS totalOps = 79 totalErrors = 0 ops = 79 sampleDuration = 88335ms samples = 79 mean = 1020.71 min = 764 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,915 [Thread-5]: ThreadID = 5 LOAD_LINKS_BULK totalOps = 452 totalErrors = 0 ops = 452 sampleDuration = 89233ms samples = 452 mean = 186560.86 min = 16754 25% = 48770 50% = 83242 75% = 171721 90% = 465430 95% = 856262 99% = 1362372 max = 2144267
+INFO 2017-06-08 09:39:26,921 [Thread-5]: ThreadID = 5 LOAD_COUNTS_BULK totalOps = 76 totalErrors = 0 ops = 76 sampleDuration = 89233ms samples = 76 mean = 50620.95 min = 9011 25% = 22428 50% = 38137 75% = 64704 90% = 89074 95% = 107330 99% = 323791 max = 323791
+INFO 2017-06-08 09:39:26,921 [Thread-5]: ThreadID = 5 LOAD_LINKS_BULK_NLINKS totalOps = 452 totalErrors = 0 ops = 452 sampleDuration = 89233ms samples = 452 mean = 1023.95 min = 1002 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:26,921 [Thread-5]: ThreadID = 5 LOAD_COUNTS_BULK_NLINKS totalOps = 76 totalErrors = 0 ops = 76 sampleDuration = 89233ms samples = 76 mean = 1020.75 min = 777 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:27,202 [Thread-9]: ThreadID = 9 LOAD_LINKS_BULK totalOps = 449 totalErrors = 0 ops = 449 sampleDuration = 89463ms samples = 449 mean = 183767.52 min = 15294 25% = 51579 50% = 80923 75% = 173110 90% = 473059 95% = 803019 99% = 1337942 max = 2911338
+INFO 2017-06-08 09:39:27,202 [Thread-9]: ThreadID = 9 LOAD_COUNTS_BULK totalOps = 69 totalErrors = 0 ops = 69 sampleDuration = 89463ms samples = 69 mean = 84220.61 min = 10455 25% = 31458 50% = 47341 75% = 73967 90% = 99657 95% = 135407 99% = 1456738 max = 1456738
+INFO 2017-06-08 09:39:27,203 [Thread-9]: ThreadID = 9 LOAD_LINKS_BULK_NLINKS totalOps = 449 totalErrors = 0 ops = 449 sampleDuration = 89463ms samples = 449 mean = 1021.98 min = 117 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:27,203 [Thread-9]: ThreadID = 9 LOAD_COUNTS_BULK_NLINKS totalOps = 69 totalErrors = 0 ops = 69 sampleDuration = 89463ms samples = 69 mean = 1013.43 min = 295 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:27,448 [Thread-8]: ThreadID = 8 LOAD_LINKS_BULK totalOps = 430 totalErrors = 0 ops = 430 sampleDuration = 89546ms samples = 430 mean = 190267.54 min = 15333 25% = 51106 50% = 86759 75% = 178120 90% = 415081 95% = 935677 99% = 1473004 max = 2480060
+INFO 2017-06-08 09:39:27,448 [Thread-8]: ThreadID = 8 LOAD_COUNTS_BULK totalOps = 85 totalErrors = 0 ops = 85 sampleDuration = 89546ms samples = 85 mean = 77274.6 min = 14309 25% = 29942 50% = 46207 75% = 81439 90% = 140712 95% = 206951 99% = 771024 max = 771024
+INFO 2017-06-08 09:39:27,448 [Thread-8]: ThreadID = 8 LOAD_LINKS_BULK_NLINKS totalOps = 430 totalErrors = 0 ops = 430 sampleDuration = 89546ms samples = 430 mean = 1023.1 min = 635 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:27,449 [Thread-8]: ThreadID = 8 LOAD_COUNTS_BULK_NLINKS totalOps = 85 totalErrors = 0 ops = 85 sampleDuration = 89546ms samples = 85 mean = 1018.89 min = 590 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:32,861 [Thread-10]: Loading of nodes [1,1000001) done
+INFO 2017-06-08 09:39:32,862 [Thread-10]: ThreadID = 10 LOAD_NODE_BULK totalOps = 977 totalErrors = 0 ops = 977 sampleDuration = 94071ms samples = 977 mean = 93485.59 min = 17928 25% = 43346 50% = 66388 75% = 96902 90% = 139244 95% = 188690 99% = 838486 max = 1325183
+INFO 2017-06-08 09:39:49,890 [Thread-0]: 1000000/1000000 id1s loaded (100.0% complete) at 8848.93 id1s/sec avg. 5249370 links loaded at 46451.31 links/sec avg.
+INFO 2017-06-08 09:39:49,907 [Thread-0]: ThreadID = 0 LOAD_LINKS_BULK totalOps = 1199 totalErrors = 0 ops = 1199 sampleDuration = 112212ms samples = 1199 mean = 89973.61 min = 12508 25% = 16745 50% = 35979 75% = 100783 90% = 220706 95% = 309485 99% = 828957 max = 1361603
+INFO 2017-06-08 09:39:49,907 [Thread-0]: ThreadID = 0 LOAD_COUNTS_BULK totalOps = 49 totalErrors = 0 ops = 49 sampleDuration = 112212ms samples = 49 mean = 58837.27 min = 2993 25% = 23025 50% = 36200 75% = 63608 90% = 115176 95% = 203540 99% = 478708 max = 478708
+INFO 2017-06-08 09:39:49,908 [Thread-0]: ThreadID = 0 LOAD_LINKS_BULK_NLINKS totalOps = 1199 totalErrors = 0 ops = 1199 sampleDuration = 112212ms samples = 1199 mean = 1023.91 min = 918 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:49,908 [Thread-0]: ThreadID = 0 LOAD_COUNTS_BULK_NLINKS totalOps = 49 totalErrors = 0 ops = 49 sampleDuration = 112212ms samples = 49 mean = 1004.82 min = 84 25% = 1024 50% = 1024 75% = 1024 90% = 1024 95% = 1024 99% = 1024 max = 1024
+INFO 2017-06-08 09:39:49,910 [main]: LOAD_NODE_BULK count = 977  p25 = [43,44]ms  p50 = [66,67]ms  p75 = [96,97]ms  p95 = [100,200]ms  p99 = [800,900]ms  max = 1325.183ms  mean = 93.486ms
+INFO 2017-06-08 09:39:49,911 [main]: LOAD_LINKS_BULK count = 5131  p25 = [43,44]ms  p50 = [76,77]ms  p75 = [100,200]ms  p95 = [700,800]ms  p99 = [1000,2000]ms  max = 2911.338ms  mean = 164.207ms
+INFO 2017-06-08 09:39:49,911 [main]: LOAD_COUNTS_BULK count = 760  p25 = [24,25]ms  p50 = [43,44]ms  p75 = [73,74]ms  p95 = [100,200]ms  p99 = [500,600]ms  max = 1456.738ms  mean = 67.707ms
+INFO 2017-06-08 09:39:49,913 [main]: LOAD PHASE COMPLETED.  Loaded 1000000 nodes (Expected 1000000). Loaded 5249370 links (5.25 links per node).  Took 113.0 seconds.  Links/second = 46445
+INFO 2017-06-08 09:39:49,913 [main]: Skipping request phase per the cmdline arg
