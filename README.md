@@ -55,10 +55,10 @@ This document provides shall provide a step-by-step guide to install the followi
    
  * Apache-jmeter-3.2:
      
-     1. Download the Binaries distribution in tgz archive from-
+     1.Download the Binaries distribution in tgz archive from-
      http://jmeter.apache.org/download_jmeter.cgi?Preferred=http%3A%2F%2Fwww-eu.apache.org%2Fdist%2Feu.apache.org%2Fdist%2F
   
-     2. Instead of installing various plugins manually. Install Plugins Manager once and it will do it all for you:installing,up
+     2.Instead of installing various plugins manually. Install Plugins Manager once and it will do it all for you:installing,up
      grading and uninstalling.
   
      Download the Plugins Manager JAR file from https://jmeter-plugins.org/downloads/all/ and extract it into JMeter's lib/ext
@@ -105,7 +105,7 @@ This document provides shall provide a step-by-step guide to install the followi
      * Delimiter=,
      * Rest as default.Run and validate.
      
-     7. `How to add Timers in jmeter` :
+     7.`How to add Timers in jmeter` :
      
      * Add a Simple Controller- to do all your samples in a logical way.
      * Add timers.We generally use Constant Timers and Uniform Random Timer.
