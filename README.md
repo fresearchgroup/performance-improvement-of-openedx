@@ -9,14 +9,34 @@
 * [Installation](https://github.com/fresearchgroup/performance-improvement-of-openedx#installation)
 * [Technologies Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies-used)
 * [Languages Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages-supported)
+* [Usage](https://github.com/fresearchgroup/performance-improvement-of-openedx#usage)
+* [Contributing](https://github.com/fresearchgroup/performance-improvement-of-openedx#contributing)
+* [Credits](https://github.com/fresearchgroup/performance-improvement-of-openedx#credits)
 * [License](https://github.com/fresearchgroup/performance-improvement-of-openedx#license)
 
 - - -
+#### Installation:
+This document provides shall provide a step-by-step guide to install the following softwares:
 
-
-
-
-
+* OpenEdx Devstack:
+* MariaDB 10.2: Here are the commands to install MariaDB on your Ubuntu system:
+     ```
+     1. sudo apt-get install software-properties- common
+     ```
+     ```
+     2. sudo apt-key adv -- recv-keys -- keyserver hkp://keyserver.ubuntu.com:800xF1656F24C74CD1D8 3.sudo add-apt- repository &#39;deb [arch=amd64,i386,ppc64el]http://mirrors.neusoft.edu.cn/mariadb/repo/10.2/ubuntu xenial main
+     ```
+     ```
+     3. sudo apt update
+     ```
+     ```
+     4. sudo apt install mariadb-server
+     ```
+     
+     After insatlling MariaDB,you need to add the following lines to the bottom of your sources.list file(/etc/apt/sources.list)
+     deb[arch=amd64,i386]http://mirrors.neusoft.edu.cn/mariadb/repo/10.2/ubuntu
+     xenial main deb-src http://mirrors.neusoft.edu.cn/mariadb/repo/10.2/ubuntu xenial main
+     (You can create a backup of your sources.list file for safety purpose)
 
 
 
