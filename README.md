@@ -34,11 +34,91 @@ This document provides shall provide a step-by-step guide to install the followi
      ```
      
      After insatlling MariaDB,you need to add the following lines to the bottom of your sources.list file(/etc/apt/sources.list)
+     ```
      deb[arch=amd64,i386]http://mirrors.neusoft.edu.cn/mariadb/repo/10.2/ubuntu
+     ```
+     ```
      xenial main deb-src http://mirrors.neusoft.edu.cn/mariadb/repo/10.2/ubuntu xenial main
+     ```
      (You can create a backup of your sources.list file for safety purpose)
+     
+ * Steps to install RocksDB plugin:
+     ```
+     sudo apt install mariadb-plugin-rocksdb
+     ```
+     The only configuration needed to enable the plugin is add the following command in the [server],[mysqld] or [mariadb]    
+     section of my.cnf file present in etc/mysql.
+     ```
+     plugin-load- add=ha_rocksdb.so
+     ```
+     And the restart MariaDB.
+   
+ * Apache-jmeter-3.2:
+     
+     1. Download the Binaries distribution in tgz archive from-
+     http://jmeter.apache.org/download_jmeter.cgi?Preferred=http%3A%2F%2Fwww-eu.apache.org%2Fdist%2Feu.apache.org%2Fdist%2F
+  
+     2. Instead of installing various plugins manually. Install Plugins Manager once and it will do it all for you:installing,up
+     grading and uninstalling.
+  
+     Download the Plugins Manager JAR file from https://jmeter-plugins.org/downloads/all/ and extract it into JMeter's lib/ext
+     directory.
+     
+     3.MySQL provides connectivity for client applications developed in the Java programming language with MySQL Connector/J,
+     a driver that implements the Java Database Connectivity (JDBC) API. MySQL Connector/J is distributed as a .zip .tar.gz
+     archive,available for download from https://dev.mysql.com/downloads/connector/j/3.1.html.
 
+     Install the Connector/J package using the binary distribution. The binary distribution provides the easiest method for 
+     installation.
+     
+     * Select version as 5.0.8
+     * Select operating system as platform independent.
+     * Download the .zip archive and extract it in apache-jmeter- 3.2/bin/lib directory.
+     
+     4.`Creating a Test Plan for Database Testing`:
+     
+     * Add thread group.
+     * Add JDBC Connection Configuration and provide the details of the database.
+       Database URL: jdbc:mysql://hostname:port_number/database
+       JDBC Driver Class: com.mysql.jdbc.Driver
+     * Add JDBC Request.
+     * Add Listeners either in the form of tree,graph or table.
+     * Run and validate.
+     
+     5.`Creating assertions for JDBC Test Plan` :
+     
+     * Add a response assertion.
+     * Add variable name in JDBC Request.These are basically columns that correspond to the result.You can name it as for say
+     if you have 4 columns then A,B,C,D.
+     If you want assertion for only A and C then add A,,C.
+     * Set response field to text as Text Response and add Pattern to Test.
+     * Add Listeners-&gt; Assertion Results.
+     * Run and validate.
+     
+     6.`How to read data from CSV file(Parameterization)` :
+     
+     * Add Config Element-&gt;CSV Data Set Config.
+     * Add filename as xyz.csv if you are on bin folder,otherwise provide the path of the file.
+     * Update value fields : Remove the variable names in the JDBC Request to ${variable_name},where variable_name is the name
+     of the variable in the CSV file.
+     * No need to give variable names as we have already given it in CSV file.
+     * Delimiter=,
+     * Rest as default.Run and validate.
+     
+     7. `How to add Timers in jmeter` :
+     
+     * Add a Simple Controller- to do all your samples in a logical way.
+     * Add timers.We generally use Constant Timers and Uniform Random Timer.
+     * Constant Timer : You can add thread delay here which is in milliseconds.
+     * In case if you add more than 1 requests having individual timers,then for request 1 time delay will be timer 1+ timer 2
+     and so on.For request 2 you will be having time delay of timer 2+timer 3 and so on.
+     * Uniform Random Timer: Here we have 2 fields:
+     -Random Delay Max
+     -Constant Delay Offset
 
+     Random Delay=0.X*Random Delay Max + Constant Delay Offset
+     X: any value from [0,9]
+     
 
 
 
