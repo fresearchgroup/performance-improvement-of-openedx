@@ -7,8 +7,7 @@
  - - -
  
 * [Installation](https://github.com/fresearchgroup/performance-improvement-of-openedx#installation)
-* [Technologies Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies-used)
-* [Languages Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages-supported)
+* [Technologies and Languages Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies-and-languages-used)
 * [Usage](https://github.com/fresearchgroup/performance-improvement-of-openedx#usage)
 * [Contributing](https://github.com/fresearchgroup/performance-improvement-of-openedx#contributing)
 * [Credits](https://github.com/fresearchgroup/performance-improvement-of-openedx#credits)
@@ -19,6 +18,7 @@
 This document provides shall provide a step-by-step guide to install the following softwares:
 
 * OpenEdx Devstack:
+
 * MariaDB 10.2: Here are the commands to install MariaDB on your Ubuntu system:
      ```
      1. sudo apt-get install software-properties- common
@@ -42,7 +42,7 @@ This document provides shall provide a step-by-step guide to install the followi
      ```
      (You can create a backup of your sources.list file for safety purpose)
      
- * Steps to install RocksDB plugin:
+  * Steps to install RocksDB plugin:
      ```
      sudo apt install mariadb-plugin-rocksdb
      ```
@@ -119,10 +119,19 @@ This document provides shall provide a step-by-step guide to install the followi
      Random Delay=0.X*Random Delay Max + Constant Delay Offset
      X: any value from [0,9]
      
+#### Technologies and Languages Used:
+    
+     | Technologies      | Languages | Storage Engines | 
+     |-------------------|:---------:|----------------:|
+     | Ubuntu 16.04 |    | MySQL     | InnoDB          |
+     | OpenEdx |         | MariaDB   | RocksDB         |    
+     | Apache-Jmeter-3.2 | 
+     | Spawner |
+ 
 
+   
 
-
-
+   
 
 
 
