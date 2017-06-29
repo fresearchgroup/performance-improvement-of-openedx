@@ -118,15 +118,17 @@ This document provides shall provide a step-by-step guide to install the followi
 
      Random Delay=0.X*Random Delay Max + Constant Delay Offset
      X: any value from [0,9]
+ ---    
+     
      
 #### Technologies and Languages Used:
     
-     | Technologies      | Languages | Storage Engines | 
-     |-------------------|:---------:|----------------:|
-     | Ubuntu 16.04 |    | MySQL     | InnoDB          |
-     | OpenEdx |         | MariaDB   | RocksDB         |    
-     | Apache-Jmeter-3.2 | 
-     | Spawner |
+ | Technologies      | Languages | Storage Engines | 
+ |-------------------|:---------:|----------------:|
+ | Ubuntu 16.04 |    | MySQL     | InnoDB          |
+ | OpenEdx |         | MariaDB   | RocksDB         |    
+ | Apache-Jmeter-3.2 | 
+ | Spawner |
  
 
    
