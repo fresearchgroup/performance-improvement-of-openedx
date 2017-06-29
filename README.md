@@ -6,10 +6,10 @@
  * RocksDB features highly flexible configuration settings that may be tuned to run on a variety of production environments, including pure memory, Flash, hard disks or HDFS. It supports various compression algorithms and good tools for production support and debugging.
  - - -
  
- [Installation](https://github.com/fresearchgroup/performance-improvement-of-openedx#installation)
- [Technologies-Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies used)
- [Languages-Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages supported)
- [License](https://github.com/fresearchgroup/performance-improvement-of-openedx#license)
+* [Installation](https://github.com/fresearchgroup/performance-improvement-of-openedx#installation)
+* [Technologies Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies-used)
+* [Languages Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages-supported)
+* [License](https://github.com/fresearchgroup/performance-improvement-of-openedx#license)
 
 - - -
 
