@@ -7,8 +7,8 @@
  - - -
  
  [Installation](https://github.com/fresearchgroup/performance-improvement-of-openedx#installation)
- [Technologies Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies used)
- [Languages Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages supported)
+ [Technologies-Used](https://github.com/fresearchgroup/performance-improvement-of-openedx#technologies used)
+ [Languages-Supported](https://github.com/fresearchgroup/performance-improvement-of-openedx#languages supported)
  [License](https://github.com/fresearchgroup/performance-improvement-of-openedx#license)
 
 - - -
