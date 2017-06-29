@@ -1,4 +1,10 @@
-# Performance Improvement of OpenEdX
+#Performance Improvement of OpenEdX using RocksDB
+
+#RocksDB:
+ * RocksDB is a C++ library providing an embedded key-value store, where keys and values are arbitrary byte streams. It was developed at Facebook based on LevelDB and provides backwards-compatible support for LevelDB APIs.
+ * RocksDB is optimized for Flash with extremely low latencies. RocksDB uses a Log Structured Database Engine for storage,which is written entirely in C++.
+ * RocksDB features highly flexible configuration settings that may be tuned to run on a variety of production environments, including pure memory, Flash, hard disks or HDFS. It supports various compression algorithms and good tools for production support and debugging.
+ 
 
 #Synopsis of the Project 
 
