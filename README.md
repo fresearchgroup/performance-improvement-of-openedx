@@ -19,9 +19,9 @@
 #### Installation:
 This document provides shall provide a step-by-step guide to install the following softwares:
 
-* OpenEdx Devstack:
+* **OpenEdx Devstack**:
 
-* MariaDB 10.2: Here are the commands to install MariaDB on your Ubuntu system:
+* **MariaDB 10.2**: Here are the commands to install MariaDB on your Ubuntu system:
      ```
      1. sudo apt-get install software-properties- common
      ```
@@ -55,7 +55,7 @@ This document provides shall provide a step-by-step guide to install the followi
      ```
      And the restart MariaDB.
    
- * Apache-jmeter-3.2:
+ * **Apache-jmeter-3.2**:
      
      1.Download the Binaries distribution in tgz archive from-
      http://jmeter.apache.org/download_jmeter.cgi?Preferred=http%3A%2F%2Fwww-eu.apache.org%2Fdist%2Feu.apache.org%2Fdist%2F
