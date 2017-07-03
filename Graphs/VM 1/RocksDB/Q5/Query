@@ -1,0 +1,4 @@
+delete from student where s_id=2000000;
+threads=500
+ramp up=50
+loop=1;

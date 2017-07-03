@@ -1,0 +1,6 @@
+select s-name from student where s_id<10
+Thread group
+No of threads 3000
+loop count 5;
+ramp up 300;
+

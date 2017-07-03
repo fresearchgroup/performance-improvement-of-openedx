@@ -1,0 +1,6 @@
+Insert into student values(?,?,?,?,?,?,?,?,?)
+csv data set values s_id,s_name,s_dob,s_email,s_sub1,s_sub2,s_sub3
+Thread group
+No of Threads 1000
+Ramp up time =100s
+loop count =20000

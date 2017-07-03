@@ -1,0 +1,5 @@
+select s_sub1,s_sub2,s_sub3 from student where s_id<7;
+no of threads 3000;
+ramp up time 300;
+loop count 1;
+

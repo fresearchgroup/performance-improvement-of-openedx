@@ -1,0 +1,5 @@
+select s_name from student where s_id<10
+No of threads=3000
+Ramp up count=300
+Loop count=5
+Time=05:01

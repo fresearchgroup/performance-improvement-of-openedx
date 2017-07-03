@@ -1,0 +1,4 @@
+update student set s_name='Emma' where s_id=24;
+threads=500
+ramp up count=50
+loop count=1;

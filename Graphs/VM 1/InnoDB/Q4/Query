@@ -1,0 +1,4 @@
+update set s_name='Emma' where s_id=24;
+thread=500
+ramp up count=50
+loop count=1

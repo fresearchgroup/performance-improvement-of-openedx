@@ -1,0 +1,24 @@
+ 
+Tests were run simultaneously on two VM, (VM1 and VM2), with the following changes made to the configurations, to simulate different production environments.
+Changes to my.cnf 
+Path to File: /home/ubuntu/etc/mysql/my.cnf
+The following lines should be added/modified in the [mysqld] section:
+
+VM1 Configuration 
+     
+innodb_buffer_pool_size 256
+innodb_log_file_size  128
+innodb_buffer_pool_instances 4
+max_connections 512
+innodb_spin_wait_delay 0
+
+
+VM2 Configuration 
+     
+innodb_buffer_pool_size 512
+innodb_log_file_size  256
+innodb_buffer_pool_instances 8
+max_connections 1024
+innodb_spin_wait_delay 0
+
+

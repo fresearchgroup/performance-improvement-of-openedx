@@ -1,0 +1,5 @@
+select s_name from student where s_id<10;
+Thread Group 
+No of Threads 3000
+ramp up time 300;
+loop count 5
